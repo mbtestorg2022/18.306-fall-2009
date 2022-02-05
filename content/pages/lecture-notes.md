@@ -28,31 +28,469 @@ Stability of numerical schemes for partial differential equations (![This resour
 Lecture Summaries
 -----------------
 
-| SES # | TOPICS | LECTURE SUMMARIES |
-| --- | --- | --- |
-| 1 |  {{< br >}}{{< br >}} Mechanics of the course. {{< br >}}{{< br >}} Example PDE. Initial and boundary value problems. {{< br >}}{{< br >}} Well and ill-posed problems. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec01)) |
-| 2 |  {{< br >}}{{< br >}} Conservation laws and PDE. {{< br >}}{{< br >}} Integral and differential forms. {{< br >}}{{< br >}} Closure strategies. Quasi-equillibrium. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec02)) |
-| 3 |  {{< br >}}{{< br >}} Classification of PDE. {{< br >}}{{< br >}} Examples. {{< br >}}{{< br >}} Kinematic waves and characteristics. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec03)) |
-| 4 |  {{< br >}}{{< br >}} First order scalar PDE. {{< br >}}{{< br >}} Examples of solutions by characteristics. {{< br >}}{{< br >}} Domain of influence. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec04)) |
-| 5 |  {{< br >}}{{< br >}} Domains of influence and dependence. {{< br >}}{{< br >}} Causality and uniqueness. Allowed boundary conditions. {{< br >}}{{< br >}} Examples. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec05)) |
-| 6 |  {{< br >}}{{< br >}} Graphical interpretation of solution by characteristics. {{< br >}}{{< br >}} Conservation. Wave steepening and breaking. {{< br >}}{{< br >}} Back to the physics. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec06)) |
-| 7 | Region of multiple values. Envelope of characteristics. | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec07)) |
-| 8 |  {{< br >}}{{< br >}} More on envelopes. Infinite slopes at envelope. {{< br >}}{{< br >}} Shocks. Conservation and entropy. Irreversibility. {{< br >}}{{< br >}} Examples from traffic flow. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec08)) |
-| 9 | Continues lecture 8. More examples. | &nbsp; |
-| 10 |  {{< br >}}{{< br >}} Shocks in the presence of source terms. Example. {{< br >}}{{< br >}} Riemann problems and Godunov's type methods. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec10)) |
-| 11 |  {{< br >}}{{< br >}} The Riemann problem for the kinematic wave equation with convex/concave flux. {{< br >}}{{< br >}} Example of a conservation law with a point source term. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec11)) |
-| 12 |  {{< br >}}{{< br >}} Shock structure and detailed physics. {{< br >}}{{< br >}} Examples: Viscosity solution. {{< br >}}{{< br >}} Traffic flow. Flood waves. Shallow water. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec12)) |
-| 13 |  {{< br >}}{{< br >}} Shallow water and higher order terms. {{< br >}}{{< br >}} Traveling waves, shocks, and the effects of dispersion. {{< br >}}{{< br >}} Solitons. Small dispersion limit. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec13)) |
-| 14 |  {{< br >}}{{< br >}} PDE and propagation of information. {{< br >}}{{< br >}} Equations that allow weak singularities. {{< br >}}{{< br >}} Examples. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec14)) |
-| 15 |  {{< br >}}{{< br >}} Hyperbolicity and weak singularities. {{< br >}}{{< br >}} Examples: Hamilton-Jacobi equation and characteristic form. {{< br >}}{{< br >}} Eikonal equation. Multiple values. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec15)) |
-| 16 | Continue with Hamilton-Jacobi equation. Characteristics, strips, and Monge cones. Eikonal as characteristic equation for wave equation in 2-D and 3-D. | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec16)) |
-| 17 |  {{< br >}}{{< br >}} Eikonal. Focusing and caustics. Description of the caustic. {{< br >}}{{< br >}} Breakdown of approximation. Derivation of amplitude equation. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec17)) |
-| 18 |  {{< br >}}{{< br >}} Eikonal. Amplitude and curvature along rays. Behavior near caustic. Caustic expansion. {{< br >}}{{< br >}} WKBJ review. Turning points. Conneccion formulas and Airy functions. Matching. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec18)) |
-| 19 |  {{< br >}}{{< br >}} First order 1-D systems of equations. Classification. {{< br >}}{{< br >}} Hyperbolic systems and characteristics. Domains of dependence and influence. Examples. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec19)) |
-| 20 | Examples of first order 1-D hypebolic systems. Linear acoustics. Wave equation. D'Alembert solution. Simple waves. Wave breaking. Shocks and shock conditions. Examples | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec20)) |
-| 21 | Gas dynamics in 1-D. Characteristics, simple waves, Riemann Invariants, rarefaction waves, shocks and shock conditions. Riemann problem. Generalizations to N by N systems. | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec21)) |
-| 22 | Continue with Lecture 21. | &nbsp; |
-| 23 | Linear equations. Superposition. Normal modes and impulse problems (Green's functions). Heat equation in 1-D examples: various initial and boundary value problems. Method of images. | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec23)) |
-| 24 |  {{< br >}}{{< br >}} Green's functions for signaling and source terms. {{< br >}}{{< br >}} Heat equation examples. Generalized functions. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec24)) |
-| 25 |  {{< br >}}{{< br >}} Generalized functions. {{< br >}}{{< br >}} Green's functions for heat equation in multi-D. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec25)) |
-| 26 |  {{< br >}}{{< br >}} Green's function. Poisson equation. Stokes equation. {{< br >}}{{< br >}} Example: stokes drag on a sphere. {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec26))
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+LECTURE SUMMARIES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Mechanics of the course.
+
+Example PDE. Initial and boundary value problems.
+
+Well and ill-posed problems.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec01))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Conservation laws and PDE.
+
+Integral and differential forms.
+
+Closure strategies. Quasi-equillibrium.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec02))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Classification of PDE.
+
+Examples.
+
+Kinematic waves and characteristics.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec03))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+First order scalar PDE.
+
+Examples of solutions by characteristics.
+
+Domain of influence.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec04))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Domains of influence and dependence.
+
+Causality and uniqueness. Allowed boundary conditions.
+
+Examples.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec05))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Graphical interpretation of solution by characteristics.
+
+Conservation. Wave steepening and breaking.
+
+Back to the physics.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec06))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Region of multiple values. Envelope of characteristics.
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec07))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+More on envelopes. Infinite slopes at envelope.
+
+Shocks. Conservation and entropy. Irreversibility.
+
+Examples from traffic flow.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec08))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Continues lecture 8. More examples.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Shocks in the presence of source terms. Example.
+
+Riemann problems and Godunov's type methods.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec10))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+The Riemann problem for the kinematic wave equation with convex/concave flux.
+
+Example of a conservation law with a point source term.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec11))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Shock structure and detailed physics.
+
+Examples: Viscosity solution.
+
+Traffic flow. Flood waves. Shallow water.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec12))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Shallow water and higher order terms.
+
+Traveling waves, shocks, and the effects of dispersion.
+
+Solitons. Small dispersion limit.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec13))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+PDE and propagation of information.
+
+Equations that allow weak singularities.
+
+Examples.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec14))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Hyperbolicity and weak singularities.
+
+Examples: Hamilton-Jacobi equation and characteristic form.
+
+Eikonal equation. Multiple values.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec15))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Continue with Hamilton-Jacobi equation. Characteristics, strips, and Monge cones. Eikonal as characteristic equation for wave equation in 2-D and 3-D.
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec16))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Eikonal. Focusing and caustics. Description of the caustic.
+
+Breakdown of approximation. Derivation of amplitude equation.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec17))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Eikonal. Amplitude and curvature along rays. Behavior near caustic. Caustic expansion.
+
+WKBJ review. Turning points. Conneccion formulas and Airy functions. Matching.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec18))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+First order 1-D systems of equations. Classification.
+
+Hyperbolic systems and characteristics. Domains of dependence and influence. Examples.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec19))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Examples of first order 1-D hypebolic systems. Linear acoustics. Wave equation. D'Alembert solution. Simple waves. Wave breaking. Shocks and shock conditions. Examples
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec20))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Gas dynamics in 1-D. Characteristics, simple waves, Riemann Invariants, rarefaction waves, shocks and shock conditions. Riemann problem. Generalizations to N by N systems.
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec21))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Continue with Lecture 21.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Linear equations. Superposition. Normal modes and impulse problems (Green's functions). Heat equation in 1-D examples: various initial and boundary value problems. Method of images.
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec23))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Green's functions for signaling and source terms.
+
+Heat equation examples. Generalized functions.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec24))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Generalized functions.
+
+Green's functions for heat equation in multi-D.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec25))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+26
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Green's function. Poisson equation. Stokes equation.
+
+Example: stokes drag on a sphere.
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit18_306f09_lec26))
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
