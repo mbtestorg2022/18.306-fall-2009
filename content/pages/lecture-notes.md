@@ -7,23 +7,23 @@ uid: bfc0bab0-da28-f90c-6556-69b5f33eae57
 Notes of Interest to the Course
 -------------------------------
 
-Incompressible flow in elastic wall pipes (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/mit18_306f09_lec21_incflowelastpipes))
+Incompressible flow in elastic wall pipes ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec21_incflowelastpipes))
 
-Branch points and branch cuts (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/mit18_306f09_lec22_branch_points_b_cuts))
+Branch points and branch cuts ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec22_branch_points_b_cuts))
 
-Conservation laws in continuum modeling (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/mit18_306f09_lec23_conservation_laws))
+Conservation laws in continuum modeling ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec23_conservation_laws))
 
-Simplest car following traffic flow model (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/mit18_306f09_lec24_cf_simple_model))
+Simplest car following traffic flow model ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec24_cf_simple_model))
 
-Discrete to continuum modeling (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/mit18_306f09_lec25_discrete_to_contin))
+Discrete to continuum modeling ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec25_discrete_to_contin))
 
-Weakly nonlinear oscillators (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/mit18_306f09_lec26_weaklynloscilators))
+Weakly nonlinear oscillators ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec26_weaklynloscilators))
 
-Hopf bifurcations (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/mit18_306f09_lec27_hopfbif))
+Hopf bifurcations ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec27_hopfbif))
 
 Weakly nonlinear breathers ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec28_breathers))
 
-Stability of numerical schemes for partial differential equations (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/mit18_306f09_lec29_num_scheme_stab))
+Stability of numerical schemes for partial differential equations ([PDF]({{< baseurl >}}/resources/mit18_306f09_lec29_num_scheme_stab))
 
 Lecture Summaries
 -----------------
