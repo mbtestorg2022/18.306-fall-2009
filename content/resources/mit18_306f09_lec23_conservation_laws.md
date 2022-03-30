@@ -6,6 +6,7 @@ description: "Lecture notes on how conservation principles are used to obtain (p
   \ di\vusion"
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/18-306-advanced-partial-differential-equations-with-applications-fall-2009/e76a819049835036f771d58afde47d46_MIT18_306f09_lec23_Conservation_Laws.pdf
 file_type: application/pdf
+parent_uid: bfc0bab0-da28-f90c-6556-69b5f33eae57
 resourcetype: Document
 title: Conservation Laws in Continuum Modeling
 uid: e76a8190-4983-5036-f771-d58afde47d46

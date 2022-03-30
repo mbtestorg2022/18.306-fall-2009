@@ -5,6 +5,7 @@ description: Problem set on linear 1st order partial differential equations (PDE
   PDE numerical integration.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/18-306-advanced-partial-differential-equations-with-applications-fall-2009/57e7acb2d4241b13c0d89767d87c301b_MIT18_306f09_pset02_ProblemSet200902.pdf
 file_type: application/pdf
+parent_uid: 58b8cf09-cddb-40d7-27c8-1068ccd19c51
 resourcetype: Document
 title: Problem Set Number 02
 uid: 57e7acb2-d424-1b13-c0d8-9767d87c301b

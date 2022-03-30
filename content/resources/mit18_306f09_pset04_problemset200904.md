@@ -5,6 +5,7 @@ description: Problem set on the eikonal equation, caustics and wave fronts, the 
   the eikonal.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/18-306-advanced-partial-differential-equations-with-applications-fall-2009/d1c7f9f33be4a6caa608facd2bb59111_MIT18_306f09_pset04_ProblemSet200904.pdf
 file_type: application/pdf
+parent_uid: 58b8cf09-cddb-40d7-27c8-1068ccd19c51
 resourcetype: Document
 title: Problem Set Number 04
 uid: d1c7f9f3-3be4-a6ca-a608-facd2bb59111

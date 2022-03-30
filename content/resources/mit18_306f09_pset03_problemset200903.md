@@ -5,6 +5,7 @@ description: Problem set on linear 1st order partial differential equations, Rie
   equation.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/18-306-advanced-partial-differential-equations-with-applications-fall-2009/3d8c65961b776c7c822b0a65d7343161_MIT18_306f09_pset03_ProblemSet200903.pdf
 file_type: application/pdf
+parent_uid: 58b8cf09-cddb-40d7-27c8-1068ccd19c51
 resourcetype: Document
 title: Problem Set Number 03
 uid: 3d8c6596-1b77-6c7c-822b-0a65d7343161
